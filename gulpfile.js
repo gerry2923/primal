@@ -8,7 +8,7 @@ const browserSync = require('browser-sync').create();
 // const sync = require("browser-sync").create();
 
 gulp.task('sass-compile', function(){
-	return gulp.src('./source/sass/**/*.scss')
+	return gulp.src('./source/sass/style.scss')
 	.pipe(sourcemaps.init())
 	.pipe(sass().on('error', sass.logError))
 	.pipe(sourcemaps.write('./'))
@@ -19,13 +19,12 @@ gulp.task('sass-compile', function(){
 
 gulp.task('serve', gulp.series('sass-compile', function(){
   browserSync.init({
-    server:'./source'
+    server:'source'
   });
 
 
   gulp.watch('./source/sass/**/*.scss',gulp.series('sass-compile'));
   gulp.watch("source/*.html").on("change", browserSync.reload);
-
 }))
 
 

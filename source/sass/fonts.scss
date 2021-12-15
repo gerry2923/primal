@@ -2,48 +2,55 @@
 	font-family: "Core Sans E 45";
 	font-weight: 400;
 	font-style: normal;
-	src: url('fonts/CoreSansE-45Regular.otf') format('opentype');
+	src: url('../font/CoreSansE-45Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: "Core Sans E 55";
+	font-weight: 500;
+	font-style: italic;
+	src: url('../font/CoreSansE-55MediumIt.otf') format('opentype');
 }
 
 @font-face {
 	font-family: "Core Sans E 55";
 	font-weight: 500;
 	font-style: normal;
-	src: url('font/CoreSansE-55MediumIt.otf') format('opentype');
+	src: url('../font/CoreSansE-55Medium.otf') format('opentype');
 }
 
 @font-face {
 	font-family: "Core Sanse E 95";
 	font-weight: 900;
 	font-style: normal;
-	src: url('font/CoreSansE-95Black.otf') format('opentype');
+	src: url('../font/CoreSansE-95Black.otf') format('opentype');
 }
 
 @font-face {
 	font-family: "Core Sanse E 35";
 	font-weight: 300;
 	font-style: italic;
-	src: url('font/CoreSansE-35LightIt.otf') format('opentype');
+	src: url('../font/CoreSansE-35LightIt.otf') format('opentype');
 }
 
 @font-face {
 	font-family: "Core Sanse E 65";
 	font-weight: 700;
 	font-style: normal;
-	src: url('font/CoreSansE-65Bold.otf') format('opentype');
+	src: url('../font/CoreSansE-65Bold.otf') format('opentype');
 }
 
 @font-face {
 	font-family: "Core Sanse E 85";
 	font-weight: 800;
 	font-style: normal;
-	src: url('font/CoreSansE-85Heavy.otf') format('opentype');
+	src: url('../font/CoreSansE-85Heavy.otf') format('opentype');
 }
 
 @font-face {
 	font-family: "Besom";
 	font-weight: normal;
 	font-style: normal;
-	src: url('font/Besom.ttf') format('opentype');
+	src: url('../font/Besom.ttf') format('opentype');
 }
 
