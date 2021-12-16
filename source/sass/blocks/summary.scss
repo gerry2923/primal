@@ -1,0 +1,42 @@
+$nm: summary;
+
+.#{$nm} {
+	outline: 1px solid blue;
+	outline-offset: -1px;
+}
+
+.#{$nm}__wrapper {
+	outline: 1px solid blue;
+	outline-offset: -1px;
+}
+
+.section__title {
+	outline: 1px solid blue;
+	outline-offset: -1px;
+}
+
+.section__subtitle {
+	outline: 1px solid blue;
+	outline-offset: -1px;
+}
+
+.#{$nm}__list {
+	outline: 1px solid blue;
+	outline-offset: -1px;
+}
+
+.#{$nm}__item {
+	outline: 1px solid blue;
+	outline-offset: -1px;
+}
+
+.#{$nm}__item-title {
+	outline: 1px solid blue;
+	outline-offset: -1px;
+}
+
+.#{$nm}__item-description {
+	outline: 1px solid blue;
+	outline-offset: -1px;
+}
+

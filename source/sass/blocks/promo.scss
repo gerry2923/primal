@@ -1,0 +1,118 @@
+$name: promo;
+
+.#{$name} {
+
+}
+
+.#{$name}__wrapper {
+	padding-top: 161px;
+}
+
+.#{$name}__title {
+	font-family: "Besom", "Arial", serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 11rem;
+	line-height: .513em;
+	letter-spacing: 0.69rem;
+	color: $title-color;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: -7px;
+}
+
+.#{$name}__title_small {
+	font-family: "Core Sans E 95", "Arial", serif;
+
+	font-weight: 800;
+	font-style: normal;
+	font-size: 4.25rem;
+	line-height: 1rem;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: $basic-font-clr-light;
+	margin-left: 11px;
+
+}
+
+.#{$name}__days-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	padding-top: 51px;
+}
+
+.#{$name}__days {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	
+	width: 205px;
+	height: 40px;
+	margin-top: 0px;
+	margin-left: 6px;
+	margin-right: 10px;
+	padding: 12px 12px 0 13px;
+
+	list-style: none;
+
+	background-image: url("../img/promo_days.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.#{$name}__day {
+	font-family: "Core Sans E 95", "Arial", serif;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 0.9rem;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	color: $special-text-color-1;
+}
+
+.#{$name}__text {
+	font-family: "Core Sans E 35", "Arial", serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 0.875rem;
+	line-height: 1.2em;
+	color: $basic-font-clr-light;
+
+	width: 80px;
+	margin: 6px 0px 0px 24px;
+
+}
+
+.#{$name}__button {
+	margin-top: 49px;
+	margin-left: -8px;
+}
+
+.button {
+	font-family: "Core Sans E 95", "Arial", serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 1.2em;
+	letter-spacing: 0.05em;
+	color: $basic-font-clr-light;
+	text-transform: uppercase;
+	
+	display: inline-block;
+	width: 307px;
+	height: 73px;
+	
+	padding-top: 18px;
+	padding-left: 107px;
+
+	background-image: url('../img/button_bcgd.png');
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+

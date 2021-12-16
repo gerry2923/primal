@@ -17,34 +17,32 @@
   src: url("../font/CoreSansE-55Medium.otf") format("opentype");
 }
 @font-face {
-  font-family: "Core Sanse E 95";
+  font-family: "Core Sans E 95";
   font-weight: 900;
   font-style: normal;
   src: url("../font/CoreSansE-95Black.otf") format("opentype");
 }
 @font-face {
-  font-family: "Core Sanse E 35";
+  font-family: "Core Sans E 35";
   font-weight: 300;
   font-style: italic;
   src: url("../font/CoreSansE-35LightIt.otf") format("opentype");
 }
 @font-face {
-  font-family: "Core Sanse E 65";
+  font-family: "Core Sans E 65";
   font-weight: 700;
   font-style: normal;
   src: url("../font/CoreSansE-65Bold.otf") format("opentype");
 }
 @font-face {
-  font-family: "Core Sanse E 85";
+  font-family: "Core Sans E 85";
   font-weight: 800;
   font-style: normal;
   src: url("../font/CoreSansE-85Heavy.otf") format("opentype");
 }
 @font-face {
   font-family: "Besom";
-  font-weight: normal;
-  font-style: normal;
-  src: url("../font/Besom.ttf") format("opentype");
+  src: url("../font/Besom 2.ttf") format("opentype");
 }
 body {
   min-width: 1200px;
@@ -144,5 +142,145 @@ a {
   font-weight: 500;
   line-height: 1.2em;
   color: #fff;
+}
+
+.promo__wrapper {
+  padding-top: 161px;
+}
+
+.promo__title {
+  font-family: "Besom", "Arial", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11rem;
+  line-height: 0.513em;
+  letter-spacing: 0.69rem;
+  color: #ff0000;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: -7px;
+}
+
+.promo__title_small {
+  font-family: "Core Sans E 95", "Arial", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4.25rem;
+  line-height: 1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 11px;
+}
+
+.promo__days-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 51px;
+}
+
+.promo__days {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 205px;
+  height: 40px;
+  margin-top: 0px;
+  margin-left: 6px;
+  margin-right: 10px;
+  padding: 12px 12px 0 13px;
+  list-style: none;
+  background-image: url("../img/promo_days.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.promo__day {
+  font-family: "Core Sans E 95", "Arial", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 0.9rem;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  color: #1b1916;
+}
+
+.promo__text {
+  font-family: "Core Sans E 35", "Arial", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  color: #fff;
+  width: 80px;
+  margin: 6px 0px 0px 24px;
+}
+
+.promo__button {
+  margin-top: 49px;
+  margin-left: -8px;
+}
+
+.button {
+  font-family: "Core Sans E 95", "Arial", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.2em;
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 307px;
+  height: 73px;
+  padding-top: 18px;
+  padding-left: 107px;
+  background-image: url("../img/button_bcgd.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.summary {
+  outline: 1px solid blue;
+  outline-offset: -1px;
+}
+
+.summary__wrapper {
+  outline: 1px solid blue;
+  outline-offset: -1px;
+}
+
+.section__title {
+  outline: 1px solid blue;
+  outline-offset: -1px;
+}
+
+.section__subtitle {
+  outline: 1px solid blue;
+  outline-offset: -1px;
+}
+
+.summary__list {
+  outline: 1px solid blue;
+  outline-offset: -1px;
+}
+
+.summary__item {
+  outline: 1px solid blue;
+  outline-offset: -1px;
+}
+
+.summary__item-title {
+  outline: 1px solid blue;
+  outline-offset: -1px;
+}
+
+.summary__item-description {
+  outline: 1px solid blue;
+  outline-offset: -1px;
 }
 /*# sourceMappingURL=style.css.map */
