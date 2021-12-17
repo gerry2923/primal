@@ -1,0 +1,246 @@
+$nm: features;
+
+.#{$nm} {
+	background-image: url('../img/features_bcgd.png');
+	background-repeat: no-repeat;
+	background-position: -315px -1px;
+	background-size: 149%;
+
+}
+
+.#{$nm}__wrapper {
+	padding-top: 195px;
+	padding-bottom: 10px;
+
+}
+
+.#{$nm}__row {
+	width: 1143px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.#{$nm}__row:first-child {
+	background-image: url('../img/features-border.png');
+	background-repeat: no-repeat;
+	background-size: 1140px 341px;
+}
+
+.#{$nm}__in-programm-title{
+	font-family: "Core Sans E 95", "Arial", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2.25rem;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 0.048em;
+	color: $basic-font-clr-light;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 73px;
+	padding-top: 117px;
+
+	width: 422px;
+	height: 339px;
+	background-image: url('../img/features_bcgd-red.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 0px 2px;
+
+}
+
+.#{$nm}__in-programm-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: relative;
+
+	width: 725px;
+	margin: 0;
+	padding-left: 3.9rem;
+	padding-right: 0px;
+	padding-top: 133px;
+	padding-bottom: 0px;
+
+	list-style-type: none;
+	counter-reset: num;
+}
+
+.#{$nm}__in-programm-item:first-child {
+	width: 230px;
+	margin-right: 73px;
+}
+
+.#{$nm}__in-programm-item:last-child {
+	width: 299px;
+}
+
+.#{$nm}__in-programm-item::before {
+	content: counter(num);
+	counter-increment: num;
+
+	font-family: "Besom", "Arial", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 4.5rem;
+	line-height: 1em;
+	letter-spacing: 0.05em;
+	color: $basic-font-clr-light;
+	opacity: 15%;
+	display: block;
+	position: absolute;
+}
+
+.#{$nm}__in-programm-item:nth-child(-n+9)::before {
+	content: "0" counter(num);
+}
+
+.#{$nm}__in-programm-item:first-child::before {
+	top: 58px;
+	left: 58px
+}
+
+.#{$nm}__in-programm-item:last-child::before {
+	top: 58px;
+	right: 296px
+}
+
+.#{$nm}__in-programm-item-title {
+	font-family: "Core Sans E 65", "Arial", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.25rem;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: $basic-font-clr-light;
+	
+	margin-top: 0px;
+	margin-bottom: 14px;;
+}
+
+.#{$nm}__in-programm-item-text {
+	font-family: "Core Sans E 45", "Arial", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1rem;
+	line-height: 1.5em;
+	text-transform: none;
+	color: $basic-font-clr-light;
+
+	margin-top: 5px;
+}
+
+
+.#{$nm}__row:last-child {
+	margin-top: 50px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: relative;
+}
+
+.#{$nm}__not-in-programm-title {
+	font-family: "Core Sans E 95", "Arial", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2.25rem;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: $basic-font-clr-light;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 425px;
+	height: 350px;
+	padding-top: 51px;
+	padding-left: 157px; 
+}
+
+.#{$nm}__not-in-programm-title::before {
+	content: "!";
+	display: block;
+	position: absolute;
+	top: 24px;
+	left: -14px;
+	width: 130px;
+	height: 143px;
+	padding-top: 60px;
+	padding-left: 63px;
+
+	font-family: "Besom", "Arial", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 5.83rem;
+	color: $basic-font-clr-light;
+	background-image: url('../img/features_exclamation.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.#{$nm}__not-in-programm-list {
+	list-style: none;
+	margin-top: 0px;
+	margin-bottom: 0px;;
+	padding-top: 54px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items:flex-start;
+}
+
+.#{$nm}__not-in-programm-item {
+	padding: 0;
+	margin: 0;
+}
+
+.#{$nm}__not-in-programm-item:first-child {
+	width: 364px;
+	margin-right: 73px;
+}
+
+.#{$nm}__not-in-programm-item:last-child {
+	width: 250px;
+}
+
+
+.#{$nm}__not-in-programm-item-title {
+	font-family: "Core Sans E 65", "Arial", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.25rem;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: $basic-font-clr-light;
+
+	margin-top: 0px;
+	margin-bottom: 14px;
+}
+
+.#{$nm}__not-in-programm-item-text {
+	font-family: "Core Sans E 45", "Arial", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1rem;
+	line-height: 1.5em;
+	text-transform: none;
+	color: $basic-font-clr-light;
+
+	margin-top: 0px;
+}
