@@ -626,6 +626,7 @@ a {
 
 .knowledges__wrapper {
   padding-top: 134px;
+  padding-bottom: 150px;
 }
 
 .knowledges .section__title {
@@ -643,27 +644,23 @@ a {
   align-items: flex-start;
   list-style: none;
   counter-reset: num;
-  padding: 0px 0px;
+  padding: 0px 0px 70px 0px;
   margin: 0px 0px 0px 0px;
   position: relative;
-  outline: 1px solid blue;
-  outline-offset: -1px;
 }
 
 .knowledges__item {
   width: 520px;
-  outline: 1px dotted blue;
-  outline-offset: -1px;
 }
 
-.knowledges__item:first-child {
-  padding-top: 30px;
-  padding-left: 208px;
-  padding-bottom: 0px;
-  padding-right: 0px;
+.knowledges__item:nth-child(1) {
+  width: 310px;
+  padding: 0;
+  margin-top: 30px;
+  margin-left: 208px;
 }
 
-.knowledges__item:first-child::before {
+.knowledges__item::before {
   content: "0" counter(num);
   counter-increment: num;
   font-family: "Besom", "Arial", serif;
@@ -673,20 +670,101 @@ a {
   letter-spacing: 0.05em;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: url("../img/numbering-1.jpg");
+  color: transparent;
   background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+}
+
+.knowledges__item:nth-child(1)::before {
+  background-image: url("../img/numbering-1.jpg");
   background-position: -59px 9px;
   background-size: 349px 196px;
-  outline: 1px solid red;
-  outline-offset: -1px;
-  color: transparent;
-  display: block;
   width: 195px;
   height: 230px;
   padding-top: 136px;
-  position: absolute;
   top: -15px;
   left: -3px;
+}
+
+.knowledges__item:nth-child(2) {
+  width: 309px;
+  padding: 0px;
+  margin-top: -60px;
+  margin-left: 0px;
+  margin-right: 35px;
+  margin-bottom: 0px;
+}
+
+.knowledges__item:nth-child(2)::before {
+  background-image: url("../img/numbering-2.jpg");
+  background-position: -51px 44px;
+  background-size: 369px 208px;
+  width: 190px;
+  height: 227px;
+  padding-top: 118px;
+  top: 113px;
+  left: 580px;
+}
+
+.knowledges__item:nth-child(3) {
+  width: 310px;
+  padding: 0px;
+  margin-top: -30px;
+  margin-left: 208px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.knowledges__item:nth-child(3)::before {
+  background-image: url("../img/numbering-3.jpg");
+  background-position: -254px -59px;
+  background-size: 500px 331px;
+  width: 195px;
+  height: 227px;
+  padding-top: 116px;
+  top: 255px;
+  left: -10px;
+}
+
+.knowledges__item:nth-child(4) {
+  width: 310px;
+  padding: 0px;
+  margin-top: -60px;
+  margin-left: 0px;
+  margin-right: 34px;
+  margin-bottom: 0px;
+}
+
+.knowledges__item:nth-child(4)::before {
+  background-image: url("../img/numbering-4.jpg");
+  background-position: -274px -92px;
+  background-size: 712px 374px;
+  width: 184px;
+  height: 227px;
+  padding-top: 122px;
+  top: 359px;
+  right: 373px;
+}
+
+.knowledges__item:nth-child(5) {
+  width: 310px;
+  padding: 0px;
+  margin-top: -16px;
+  margin-left: 208px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.knowledges__item:nth-child(5)::before {
+  background-image: url("../img/numbering-5.jpg");
+  background-position: -72px -11px;
+  background-size: 330px 220px;
+  width: 186px;
+  height: 227px;
+  padding-top: 126px;
+  top: 485px;
+  left: -6px;
 }
 
 .knowledges__item:nth-child(2n) {
@@ -717,5 +795,266 @@ a {
   font-weight: 400;
   font-style: normal;
   font-size: 2.25rem;
+  line-height: 1.2em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ff0000;
+  width: 725px;
+  margin-top: 39px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.knowledges__accessorial-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  list-style: none;
+  counter-reset: num;
+  padding: 76px 0px 0px 21px;
+  margin: 0px -16px 0px 0px;
+  background-image: url("../img/knowledges-list.png");
+  background-repeat: no-repeat;
+  background-position: 12px 0px;
+  background-size: 1032px 50px;
+}
+
+.knowledges__accessorial-item {
+  width: 185px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 25px 0px 0px;
+}
+
+.knowledges__accessorial-item:nth-child(2) {
+  margin-right: 65px;
+}
+
+.knowledges__accessorial-item:nth-child(3) {
+  margin-right: 45px;
+}
+
+.knowledges__accessorial-item:nth-child(4) {
+  margin-right: 10px;
+}
+
+.knowledges__accessorial-item:nth-child(5) {
+  width: 129px;
+  margin-left: 94px;
+}
+
+.knowledges__accessorial-item::before {
+  content: counter(num);
+  counter-increment: num;
+  font-family: "Core Sans E 85", "Arial", serif;
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.2em;
+  font-style: normal;
+  color: #fff;
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  outline: 1px solid red;
+  outline-offset: -1px;
+}
+
+.knowledges__accessorial-item:nth-child(1)::before {
+  top: 17px;
+  left: 33px;
+}
+
+.knowledges__accessorial-item:nth-child(2)::before {
+  top: 17px;
+  left: 245px;
+}
+
+.knowledges__accessorial-item:nth-child(3)::before {
+  top: 17px;
+  left: 495px;
+}
+
+.knowledges__accessorial-item:nth-child(4)::before {
+  top: 17px;
+  left: 722px;
+}
+
+.knowledges__accessorial-item:nth-child(5)::before {
+  top: 17px;
+  left: 1012px;
+}
+
+.skills {
+  background-image: url("../img/skills_bcgd+.jpg");
+  background-repeat: no-repeat;
+  background-size: 1207px 873px;
+  background-position: -317px 54px;
+}
+
+.skills .section__title {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 181px;
+  margin-right: 0px;
+}
+
+.skills .section__subtitle {
+  margin-top: -110px;
+  margin-bottom: 0px;
+  margin-left: 58px;
+  margin-right: 0px;
+}
+
+.skills__list {
+  list-style: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 238px 0px;
+}
+
+.skills__item {
+  font-family: "Core Sans E 45", "Arial", serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  width: 200px;
+}
+
+.skills__item:nth-child(1) {
+  width: 150px;
+  margin-top: 34px;
+  margin-bottom: 0px;
+  margin-left: 647px;
+  margin-right: 0px;
+}
+
+.skills__item:nth-child(2) {
+  width: 200px;
+  margin-top: 73px;
+  margin-bottom: 0px;
+  margin-left: 743px;
+  margin-right: 0px;
+}
+
+.skills__item:nth-child(3) {
+  width: 200px;
+  margin-top: 72px;
+  margin-bottom: 0px;
+  margin-left: 815px;
+  margin-right: 0px;
+}
+
+.skills__item:nth-child(4) {
+  width: 220px;
+  margin-top: 106px;
+  margin-bottom: 0px;
+  margin-left: 865px;
+  margin-right: 0px;
+}
+
+.skills__item:nth-child(5) {
+  width: 224px;
+  margin-top: 89px;
+  margin-bottom: 0px;
+  margin-left: 875px;
+  margin-right: 0px;
+}
+
+.program .section__title {
+  margin-left: 169px;
+  margin-top: 8px;
+}
+
+.program .section__subtitle {
+  margin-top: -110px;
+  margin-left: 244px;
+}
+
+.program__wrapper {
+  background-image: url("../img/program_bcgd.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-bottom: 91px;
+  width: 100%;
+}
+
+.program__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-height: 408px;
+  margin: 0 -37px 0px 0;
+  padding: 125px 0px 40px 150px;
+  list-style: none;
+  counter-reset: num;
+}
+
+.program__item {
+  font-family: "Core Sans E 45", "Arial", serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.56em;
+  width: 376px;
+  padding: 15px 0px 5px 0px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.program__item::before {
+  content: "0" counter(num);
+  counter-increment: num;
+  font-family: "Besom", "Arial", serif;
+  font-size: 1.875rem;
+  line-height: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  color: #ff0000;
+  text-transform: uppercase;
+  padding-top: 12px 0 0 0;
+  margin-right: 21px;
+}
+
+.program__button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 12px;
+  padding-top: 24px;
+  padding-left: 142px;
+  padding-bottom: 20px;
+  padding-right: 171px;
+}
+
+.program__text {
+  font-family: "Besom", "Arial", serif;
+  font-size: 5.4375rem;
+  line-height: 1.0775;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  color: #ff0000;
+  margin: 0px;
+}
+
+.program__button {
+  display: block;
+  margin-top: -3px;
 }
 /*# sourceMappingURL=style.css.map */
