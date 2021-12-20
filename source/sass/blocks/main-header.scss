@@ -1,0 +1,66 @@
+$blk: main-header;
+
+.container {
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.#{$blk} {
+
+}
+
+.#{$blk}__wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.#{$blk}__logo {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	margin-left: -1px;
+
+	& img {
+		vertical-align: middle;
+	}
+}
+
+.#{$blk}__text {
+	width: 351px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 48px;
+	margin-bottom: 0px;
+	padding-left: 0.35em;
+
+	font-family: "Core Sans E 45", "Arial", serif;
+	font-size: 1.125em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.2em;
+	letter-spacing: 0.7em;
+	text-align: center;
+
+	color: $basic-font-clr-light;
+
+	background-image: url(../img/header_blur.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.#{$blk}__phone {
+	display: block;
+	margin-top: 47px;
+
+	font-family: "Core Sans E 55", "Arial", serif;
+	font-size: 1.5em;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.2em;
+
+	color: $basic-font-clr-light;
+}
