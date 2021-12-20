@@ -3,9 +3,8 @@ $nm: features;
 .#{$nm} {
 	background-image: url('../img/features_bcgd.png');
 	background-repeat: no-repeat;
-	background-position: -315px -1px;
-	background-size: 149%;
-
+	background-position: top left;
+	background-size: cover;
 }
 
 .#{$nm}__wrapper {
@@ -15,7 +14,7 @@ $nm: features;
 }
 
 .#{$nm}__row {
-	width: 1143px;
+	width: 1139px;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -23,9 +22,10 @@ $nm: features;
 }
 
 .#{$nm}__row:first-child {
-	background-image: url('../img/features-border.png');
-	background-repeat: no-repeat;
-	background-size: 1140px 341px;
+	border-width: 9px;
+	border-style: solid;
+	border-image-source: url('../img/features-border.png');
+	border-image-slice: 9;
 }
 
 .#{$nm}__in-programm-title{
@@ -40,15 +40,15 @@ $nm: features;
 
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding-left: 73px;
-	padding-top: 117px;
+	padding-left: 64px;
+	padding-top: 108px;
 
 	width: 422px;
-	height: 339px;
+	height: 324px;
 	background-image: url('../img/features_bcgd-red.png');
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: 0px 2px;
+	background-position: top left;
 
 }
 
@@ -63,7 +63,7 @@ $nm: features;
 	margin: 0;
 	padding-left: 3.9rem;
 	padding-right: 0px;
-	padding-top: 133px;
+	padding-top: 124px;
 	padding-bottom: 0px;
 
 	list-style-type: none;
@@ -100,13 +100,13 @@ $nm: features;
 }
 
 .#{$nm}__in-programm-item:first-child::before {
-	top: 58px;
+	top: 49px;
 	left: 58px
 }
 
 .#{$nm}__in-programm-item:last-child::before {
-	top: 58px;
-	right: 296px
+	top: 49px;
+	right: 284px
 }
 
 .#{$nm}__in-programm-item-title {
@@ -137,7 +137,7 @@ $nm: features;
 
 
 .#{$nm}__row:last-child {
-	margin-top: 50px;
+	margin-top: 47px;
 	margin-bottom: 0px;
 	padding-top: 0px;
 	padding-left: 0px;

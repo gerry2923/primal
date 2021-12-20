@@ -18,11 +18,9 @@ $nm: summary;
 	letter-spacing: 0.0494em;
 	color: $title-color;
 	text-transform: uppercase;
+	text-align: center;
 
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	margin-left: 310px;
+	margin: 0px;
 }
 
 .section__subtitle {
@@ -34,6 +32,7 @@ $nm: summary;
 	letter-spacing: 0.05em;
 	color: $subtitle-color;
 	text-transform: uppercase;
+	text-align: center;
 	opacity: 0.1;
 
 	margin: -112px 0px 0px 70px;

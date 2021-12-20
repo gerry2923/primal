@@ -1,0 +1,58 @@
+$nm: main-footer;
+
+.#{$nm} {
+	margin-top: 92px;
+	margin-bottom: 50px;
+}
+
+.#{$nm}__wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.#{$nm}__logo {
+	margin-right: 37px;
+
+}
+
+.copyright {
+	font-family: "Core Sans E 55", "Arial", serif;
+	font-style: normal;
+	font-size: 0.875rem;
+	line-height: 1em;
+	font-weight: 500;
+	color: $footer-color;
+	margin-top: 16px;
+	margin-bottom: 5px;
+	margin-right: 106px;
+}
+
+.privacy-policy {
+	font-family: "Core Sans E 45", "Arial", serif;
+	font-style: normal;
+	font-size: 0.875rem;
+	line-height: 1em;
+	font-weight: normal;
+	color: $footer-color;
+
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed $footer-color;
+}
+
+.#{$nm}__phone {
+	font-family: "Core Sans E 55", "Arial", serif;
+	font-style: normal;
+	font-size: 1rem;
+	line-height: 1em;
+	font-weight: 500;
+	color: $footer-color;
+	letter-spacing: 0.056em;
+
+	margin-left: auto;
+	padding-top: 14px;
+	margin-right: 2px;;
+}

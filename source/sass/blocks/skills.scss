@@ -4,21 +4,18 @@ $nm: skills;
 	background-image: url('../img/skills_bcgd+.jpg');
 	background-repeat: no-repeat;
 	background-size: 1207px 873px;
-	background-position: -317px 54px;
+	background-position: center left;
+
+	padding-top: 40px;
+	margin-bottom: 10px;;
 }
 
 .#{$nm} .section__title {
-	margin-top: 40px;
-	margin-bottom: 0px;
-	margin-left: 181px;
-	margin-right: 0px;
+
 }
 
 .#{$nm} .section__subtitle {
-	margin-top: -110px;
-	margin-bottom: 0px;
-	margin-left: 58px;
-	margin-right: 0px;
+
 }
 
 .#{$nm}__list {
